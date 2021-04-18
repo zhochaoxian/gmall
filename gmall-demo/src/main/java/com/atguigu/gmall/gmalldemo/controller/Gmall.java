@@ -1,6 +1,7 @@
 package com.atguigu.gmall.gmalldemo.controller;
 
 public class Gmall {
+    private int age;
 
     private String Url;
     private String name;
