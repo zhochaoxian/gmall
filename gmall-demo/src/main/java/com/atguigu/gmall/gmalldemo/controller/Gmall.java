@@ -28,4 +28,8 @@ public class Gmall {
                 ", name='" + name + '\'' +
                 '}';
     }
+
+    public Gmall(String url) {
+        Url = url;
+    }
 }
