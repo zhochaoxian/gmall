@@ -21,9 +21,11 @@ public class Gmall {
         this.name = name;
     }
 
-    public String toString (){
-        return "success";
+    @Override
+    public String toString() {
+        return "Gmall{" +
+                "Url='" + Url + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
-
-
 }
